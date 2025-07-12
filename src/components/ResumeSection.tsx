@@ -29,13 +29,13 @@ const ResumeSection = () => {
               
               <div className="flex space-x-4">
                 <Button variant="outline" size="lg" asChild>
-                  <a href="/src/assets/Praveen_Resume.pdf" target="_blank" rel="noopener noreferrer">
+                  <a href="/Praveen_Resume.pdf" target="_blank" rel="noopener noreferrer">
                     <Eye className="w-5 h-5 mr-2" />
                     Preview
                   </a>
                 </Button>
                 <Button variant="glow" size="lg" asChild>
-                  <a href="/src/assets/Praveen_Resume.pdf" download>
+                  <a href="/Praveen_Resume.pdf" download>
                     <Download className="w-5 h-5 mr-2" />
                     Download
                   </a>
