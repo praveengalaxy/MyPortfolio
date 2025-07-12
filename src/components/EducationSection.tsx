@@ -3,18 +3,18 @@ import { GraduationCap, Calendar } from "lucide-react";
 const EducationSection = () => {
   const education = [
     {
-      degree: "Bachelor of Technology in Electronics & Communication",
-      institution: "XYZ University",
-      period: "2021 - 2024",
-      description: "Specializing in digital electronics, signal processing, and communication systems. Maintaining a strong academic record with focus on practical applications.",
-      achievements: ["Dean's List", "Best Project Award", "Technical Society Member"]
+      degree: "B.E in Computer Science & Engineering",
+      institution: "RV College of Engineering, Bengaluru",
+      period: "2022 – 2026",
+      description: "CGPA: 8.64. Specialized in Computer Science & Engineering with a focus on AI, IoT, and software development.",
+      achievements: ["Award of Merit in Enterprise Architecture (The Open Group, New Delhi)"]
     },
     {
-      degree: "Pre-University (PUC)",
-      institution: "ABC College",
-      period: "2019 - 2021",
-      description: "Completed with distinction in Physics, Chemistry, and Mathematics. Developed strong foundation in analytical thinking and problem-solving.",
-      achievements: ["First Class with Distinction", "Science Olympiad Winner", "Mathematics Club President"]
+      degree: "Karnataka Secondary Education - Class XII",
+      institution: "Konnur Science PU College, Yallatti",
+      period: "2020 – 2022",
+      description: "Score: 94%. Strong foundation in Physics, Chemistry, Mathematics, and Computer Science.",
+      achievements: ["First Class with Distinction"]
     }
   ];
 

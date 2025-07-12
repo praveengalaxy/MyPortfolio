@@ -23,18 +23,22 @@ const ResumeSection = () => {
                 <div className="text-left">
                   <h3 className="text-xl font-bold">Praveen's Resume</h3>
                   <p className="text-muted-foreground">Engineering Student - Updated Dec 2024</p>
-                  <p className="text-sm text-muted-foreground">PDF • 2.3 MB</p>
+                  <p className="text-sm text-muted-foreground">PDF • 139 KB</p>
                 </div>
               </div>
               
               <div className="flex space-x-4">
-                <Button variant="outline" size="lg">
-                  <Eye className="w-5 h-5 mr-2" />
-                  Preview
+                <Button variant="outline" size="lg" asChild>
+                  <a href="/src/assets/Praveen_Resume.pdf" target="_blank" rel="noopener noreferrer">
+                    <Eye className="w-5 h-5 mr-2" />
+                    Preview
+                  </a>
                 </Button>
-                <Button variant="glow" size="lg">
-                  <Download className="w-5 h-5 mr-2" />
-                  Download
+                <Button variant="glow" size="lg" asChild>
+                  <a href="/src/assets/Praveen_Resume.pdf" download>
+                    <Download className="w-5 h-5 mr-2" />
+                    Download
+                  </a>
                 </Button>
               </div>
             </div>

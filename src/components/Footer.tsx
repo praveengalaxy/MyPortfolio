@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="text-center space-y-4">
           <div className="text-sm text-muted-foreground">
-            © 2024 Praveen. All rights reserved.
+            © 2024 Praveen Prakash Hebbal. All rights reserved.
           </div>
           <div className="flex items-center justify-center space-x-2 text-sm text-muted-foreground">
             <span>Built with</span>

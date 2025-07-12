@@ -7,29 +7,29 @@ import project3Image from "@/assets/project3.jpg";
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "E-Commerce Web Application",
-      description: "A full-stack e-commerce platform built with React, Node.js, and MongoDB. Features include user authentication, payment integration, and admin dashboard.",
+      title: "Rider Guardian System",
+      description: "IoT-powered motorcycle safety platform with crash detection, health and fleet monitoring, and emergency alerting. Sensors (alcohol, heart rate, MPU6050, GPS, helmet) send real-time data to a Node.js backend via Arduino. Full-stack app using React, Vite, TypeScript, Tailwind CSS, and REST APIs. Features predictive maintenance, fleet dashboard, and Location Tracker.",
       image: project1Image,
-      technologies: ["React", "Node.js", "MongoDB", "Stripe API"],
-      github: "https://github.com/praveengalaxy/ecommerce-app",
-      live: "https://praveengalaxy-ecommerce.vercel.app",
-      featured: true
-    },
-    {
-      title: "IoT Home Automation System",
-      description: "Smart home automation system using Arduino, sensors, and mobile app control. Includes temperature monitoring, lighting control, and security features.",
-      image: project2Image,
-      technologies: ["Arduino", "ESP32", "Flutter", "Firebase"],
-      github: "https://github.com/praveengalaxy/smart-home",
+      technologies: ["React", "Vite", "TypeScript", "Tailwind CSS", "Node.js", "Arduino", "REST APIs"],
+      github: "https://github.com/praveengalaxy/rider-guardian-system",
       live: "#",
       featured: true
     },
     {
-      title: "Task Management Mobile App",
-      description: "Cross-platform mobile app for task management with real-time collaboration features. Built with React Native and Firebase backend.",
+      title: "AI-Powered Cybersecurity Threat Detection System",
+      description: "AI system to detect CAN bus cyberattacks (DoS, Fuzzy, Impersonation) in real time using Python and ML models (TensorFlow, Scikit-learn), trained on automotive datasets. Deployed with Flask/FastAPI, integrated real-time CAN monitoring and visualization (Matplotlib, Seaborn), with optional MySQL logging. Designed for future embedded deployment.",
+      image: project2Image,
+      technologies: ["Python", "TensorFlow", "Scikit-learn", "Flask", "FastAPI", "Matplotlib", "Seaborn", "MySQL"],
+      github: "https://github.com/praveengalaxy/Automotive-Systems",
+      live: "#",
+      featured: true
+    },
+    {
+      title: "EduThon: AI-Powered Parental Learning Companion",
+      description: "AI-powered education platform to help parents teach children through personalized concept explanations powered by Google Gemini, with multilingual support and analytics. Backend (Flask) serves AI explanations; frontend (React) features gamified lessons, quizzes, dashboards, and progress tracking for both parents and kids.",
       image: project3Image,
-      technologies: ["React Native", "Firebase", "Redux", "Expo"],
-      github: "https://github.com/praveengalaxy/task-manager",
+      technologies: ["React", "Flask", "Google Gemini", "Gamification", "Analytics"],
+      github: "https://github.com/praveengalaxy/EduThon",
       live: "#",
       featured: false
     }

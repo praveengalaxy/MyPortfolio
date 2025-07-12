@@ -1,5 +1,5 @@
 import { Button } from "./ui/button";
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Mail, Code } from "lucide-react";
 import heroImage from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => {
@@ -28,10 +28,10 @@ const HeroSection = () => {
         <div className="text-center space-y-8 animate-fade-up">
           <div className="space-y-4">
             <h1 className="text-5xl md:text-7xl font-bold">
-              Hello, I'm <span className="text-gradient">Praveen</span>
+              Hello, I'm <span className="text-gradient">Praveen Prakash Hebbal</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto">
-              Engineering Student passionate about technology and innovation
+              Computer Science & Engineering student passionate about  Software Development, AI , IoT, Networks and innovation
             </p>
           </div>
           
@@ -59,8 +59,9 @@ const HeroSection = () => {
           <div className="flex justify-center space-x-6 pt-8">
             {[
               { icon: Github, href: "https://github.com/praveengalaxy", label: "GitHub" },
-              { icon: Linkedin, href: "https://linkedin.com/in/praveengalaxy", label: "LinkedIn" },
-              { icon: Mail, href: "mailto:praveen@example.com", label: "Email" }
+              { icon: Linkedin, href: "https://linkedin.com/in/praveen-hebbal-b73b94313", label: "LinkedIn" },
+              { icon: Mail, href: "mailto:praveen.hebbal2004@gmail.com", label: "Email" },
+              { icon: Code, href: "https://my-portfolio-one-theta-42.vercel.app/", label: "Portfolio" }
             ].map((social, index) => (
               <Button
                 key={social.label}

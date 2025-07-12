@@ -24,30 +24,28 @@ const AboutSection = () => {
             
             <div className="space-y-4 text-lg text-muted-foreground">
               <p>
-                I am a third-year engineering student specializing in <span className="text-primary font-semibold">Electronics and Communication</span>. 
-                I have experience in software development and I love working on projects that involve web technologies.
+                I am a Computer Science & Engineering student at <span className="text-primary font-semibold">RV College of Engineering, Bengaluru</span> (2022–2026, CGPA: 8.64).
+                I am passionate about technology, AI, IoT, and innovation.
               </p>
               <p>
-                My interests include <span className="text-primary font-semibold">robotics, IoT, and AI</span>. 
-                Currently pursuing my Bachelor of Technology degree at XYZ University, I enjoy learning new programming 
-                languages and frameworks.
+                <span className="text-primary font-semibold">Skills:</span> C, C++, HTML, CSS, JavaScript, Python, SQL<br/>
+                <span className="text-primary font-semibold">Concepts:</span> DSA, OOP, Operating Systems, DBMS, AIML, Computer Networks, REST APIs<br/>
+                <span className="text-primary font-semibold">Tools:</span> Git/GitHub, GeeksforGeeks, VS Code, TensorFlow, Scikit-learn, Google Colab
               </p>
               <p>
-                I am always eager to take on challenging technical problems and collaborate on innovative solutions 
-                that make a real-world impact.
+                <span className="text-primary font-semibold">Coding Profiles:</span><br/>
+                LeetCode: <a href="https://leetcode.com/u/praveenphebbal/" className="text-primary underline" target="_blank" rel="noopener noreferrer">praveen-hebbal</a><br/>
+                GeeksforGeeks: <a href="https://www.geeksforgeeks.org/user/praveenhehidy/" className="text-primary underline" target="_blank" rel="noopener noreferrer">praveen-hebbal</a>
+              </p>
+              <p>
+                <span className="text-primary font-semibold">Achievement:</span> Secured award of merit in Enterprise Architecture conducted by The Open Group at New Delhi.
+              </p>
+              <p>
+                <span className="text-primary font-semibold">Hobbies:</span> Exploring AI & IoT innovations, watching science fiction and movies, playing volleyball and cricket, reading tech blogs.
               </p>
             </div>
             
-            <div className="grid grid-cols-2 gap-6 pt-6">
-              <div className="text-center p-4 bg-card rounded-lg card-hover">
-                <div className="text-3xl font-bold text-primary">50+</div>
-                <div className="text-sm text-muted-foreground">Projects Completed</div>
-              </div>
-              <div className="text-center p-4 bg-card rounded-lg card-hover">
-                <div className="text-3xl font-bold text-primary">3</div>
-                <div className="text-sm text-muted-foreground">Years Experience</div>
-              </div>
-            </div>
+            {/* Removed the two section boxes for projects and experience */}
           </div>
         </div>
       </div>
