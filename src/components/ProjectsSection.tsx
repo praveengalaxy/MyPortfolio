@@ -20,7 +20,7 @@ const ProjectsSection = () => {
       description: "AI system to detect CAN bus cyberattacks (DoS, Fuzzy, Impersonation) in real time using Python and ML models (TensorFlow, Scikit-learn), trained on automotive datasets. Deployed with Flask/FastAPI, integrated real-time CAN monitoring and visualization (Matplotlib, Seaborn), with optional MySQL logging. Designed for future embedded deployment.",
       image: project2Image,
       technologies: ["Python", "TensorFlow", "Scikit-learn", "Flask", "FastAPI", "Matplotlib", "Seaborn", "MySQL"],
-      github: "https://github.com/praveengalaxy/Automotive-Systems",
+      github: "https://github.com/praveengalaxy/AI-Powered-Cybersecurity-Threat-Detection-System-in-Automotive-Systems",
       live: "#",
       featured: true
     },
